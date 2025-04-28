@@ -1,4 +1,7 @@
+#ZaFoniX 
+
 Introduction
+
 ZaFoniX is a clinical research tool designed for identifying drug therapies based on genetic information, disease names, or specific drug identifiers. Developed by Zarlish Attique, it supports precision medicine efforts by integrating therapeutic recommendations with drug approval statuses and development stages. ZaFoniX offers a secured login system, flexible search options, and clear data visualization, making it an effective solution for clinicians, researchers, and healthcare data analysts.
 
 Installation Requirements
