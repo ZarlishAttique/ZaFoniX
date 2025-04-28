@@ -1,89 +1,22 @@
-# ZaFoniX
+Introduction
+ZaFoniX is a clinical research tool designed for identifying drug therapies based on genetic information, disease names, or specific drug identifiers. Developed by Zarlish Attique, it supports precision medicine efforts by integrating therapeutic recommendations with drug approval statuses and development stages. ZaFoniX offers a secured login system, flexible search options, and clear data visualization, making it an effective solution for clinicians, researchers, and healthcare data analysts.
 
-ZaFoniX - Personalized Medicine Guide
-ZaFoniX is a precision medicine software tool that assists clinicians and researchers in identifying targeted therapies based on genetic test results. It uses curated drug information to suggest FDA-approved, experimental, and investigational drugs associated with specific diseases, genes, or drug names.
+Installation Requirements
+To use ZaFoniX, ensure that your computer has Python version 3.7 or higher installed. Standard Python packages for data handling and visualization, including pandas, matplotlib, and Pillow, must be available. Tkinter, the GUI framework used, comes pre-installed with Python in most systems. If needed, install any missing packages before proceeding.
 
-Developed by Zarlish Attique.
+Download the complete ZaFoniX folder. Place all files in the same directory without altering the folder structure.
 
-Features
-Secure access with license key authentication (ZAFONIX-1234).
+Launching the Application
+Open your system’s command prompt or terminal. Navigate to the ZaFoniX folder. Run the application by executing the main file. Upon starting, ZaFoniX will request an access key. Enter your authorized access key to proceed to the main dashboard.
 
-Search functionality for diseases, gene IDs, or drug names.
+Using ZaFoniX
+Once logged in, the main window will appear with a search interface. Three search options are available: by disease name, drug name, or gene ID.
 
-Filtering options to display:
+Type your search query into the input field and select the appropriate search button. You can further filter your results to view only FDA-approved drugs, experimental drugs, or investigational drugs.
 
-FDA-approved drugs
+The results will be displayed in an interactive table. Users can scroll horizontally or vertically to explore the information fully. ZaFoniX also provides an option to export search results into CSV or Excel files for further analysis.
 
-Experimental drugs
+Additionally, a separate visualization panel allows users to view the distribution of drug types and target actions through dynamically generated charts.
 
-Investigational drugs
-
-Interactive data visualization:
-
-Drug type distribution
-
-Small molecule vs other types
-
-Top target actions associated with drugs
-
-Detailed search results in a scrollable, sortable table.
-
-Option to export results to CSV or Excel formats.
-
-Clean, professional graphical user interface (GUI) built using Tkinter.
-
-Requirements
-Python 3.7+
-
-Required libraries:
-
-tkinter
-
-pandas
-
-matplotlib
-
-Pillow
-
-Install the required Python packages using pip:
-
-bash
-Copy
-Edit
-pip install pandas matplotlib pillow
-Usage
-Clone or download the ZaFoniX project files.
-
-Ensure you have the input dataset (DrugsList.xlsx) available at the path specified inside the code, or modify the path accordingly.
-
-Run the application:
-
-python zafonix.py
-Upon launch, you will be prompted to enter an access key. Enter:
-
-ZAFONIX-1234
-Use the search bar to input a gene, disease, or drug name.
-
-Apply optional filters (Approved, Experimental, Investigational) to refine results.
-
-Explore the visual analytics and save search results if needed.
-
-File Structure
-zafonix.py – Main application script containing GUI and search functionalities.
-
-DrugsList.xlsx – Excel dataset containing drug information.
-
-Images (optional) – Path to scientist images for GUI display (adjust or remove if images are unavailable).
-
-Notes
-Make sure the paths for the dataset and images are correctly set based on your local system.
-
-The tool automatically saves search results when prompted, supporting both CSV and Excel formats.
-
-License
-This project is intended for research and educational purposes only. For clinical use, ensure appropriate regulatory approvals from zarlishattiquebi@gmail.com | ranafaraz9266@gmail.com.
-
-Contact
-Developer: Zarlish Attique
-Email: zarlishattiquebi@gmail.com | ranafaraz9266@gmail.com
-
+Troubleshooting
+If the application does not start, verify that Python is properly installed and that all required libraries are available. Ensure that "DrugsList.xlsx" is present in the correct folder. If access is denied during login, confirm that you are using the correct access key provided during registration or setup.
